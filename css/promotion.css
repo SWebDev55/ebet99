@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif,'Battambang'
+}
+.blog-promotion .main-box{
+    background: rgba(54, 168, 19, 0.6);
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .blog-promotion{
+        width: 100%;
+        padding: 5px !important;
+    }
+    .blog-promotion .main-box{
+        padding: 5px !important;
+        width: 100%;
+        display: inline-block;
+    }
+    .blog-promotion .main-box .col-span-9 .box{
+        padding: 5px !important;
+    }
+    .blog-promotion .main-box .col-span-9 .des p{
+        padding: 0px !important;
+        width: 80px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .blog-promotion{
+        width: 100%;
+        padding: 5px !important;
+    }
+    .blog-promotion .main-box{
+        padding: 5px !important;
+        width: 100%;
+        display: inline-block;
+    }
+    .blog-promotion .main-box .col-span-9 .box{
+        padding: 5px !important;
+    }
+    .blog-promotion .main-box .col-span-9 .des p{
+        padding: 0px !important;
+        width: 80px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .blog-promotion{
+        width: 100%;
+        padding: 5px !important;
+    }
+    .blog-promotion .main-box{
+        padding: 5px !important;
+    }
+    .blog-promotion .main-box .col-span-3 .list-menu ul li a img{
+        width: 20px;
+    }
+    .blog-promotion .main-box .col-span-3 .list-menu ul li a{
+        font-size: 15px;
+    }
+    .blog-promotion .main-box .col-span-9 .des p{
+        padding: 0px !important;
+        width: 80px;
+        font-size: 15px;
+    }
+}

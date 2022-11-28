@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+        css link
+    -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sport.css">
+    <link rel="stylesheet" href="./css/casino.css">
+    <link rel="stylesheet" href="./css/lottery.css">
+    <link rel="stylesheet" href="./css/kino.css">
+    <link rel="stylesheet" href="./css/cock.css">
+    <link rel="stylesheet" href="./css/fish.css">
+    <link rel="stylesheet" href="./css/joker.css">
+    <link rel="stylesheet" href="./css/promotion.css">
+
+    <!-- 
+        tailwindcss link
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 
+        jquery link
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 
+        icon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- 
+        slide owlcarousel link
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- <script src="jquery.min.js"></script> -->
+    <link rel="icon" href="./img/logo/EBET logo.png">
+    <title>E-BET99</title>
+</head>
+<body class="bg">
+    <div class="form-for-mobile hidden" id="form">
+        <div class="main-box bg-yellow-500 w-full p-5 relative mt-20">
+            <div class="close-form absolute top-2 right-2" onclick="closeForm();">
+                <i class="fa fa-times w-10 h-10 border-2 text-white border-white rounded-full flex justify-center items-center text-2xl"></i>
+            </div>
+            <h1 class="text-white text-center text-4xl font-bold w-20 h-20 flex justify-center items-center rounded-full border-4 border-yellow-400 m-auto"><i class="fa fa-user"></i></h1>
+            <p class="text-center text-white font-bold text-xl">ចូលលេង</p>
+            <form action="#" method="post">
+                <label for="#" class="text-md text-white font-bold">ឈ្មោះអ្នក</label>
+                <br>
+                <input type="text" placeholder="ឈ្មោះអ្នកប្រើប្រាស់" class="border-0 outline-0 p-1.5 rounded my-1 w-full">
+                <br>
+                <label for="#" class="text-md text-white font-bold">លេខសម្ងាត់</label>
+                <br>
+                <input type="password" placeholder="លេខសម្ងាត់" class="border-0 outline-0 p-1.5 rounded my-1 w-full">
+                <div class="btn flex justify-between items-center">
+                    <button type="btn-login" class="w-32 my-4 text-center text-xl text-white bg-green-800 border-2 border-white p-1.5 rounded font-bold">ចូលលេង</button>
+                    <a href="./register.html">
+                        <p class="w-32 my-4 text-center text-xl text-white bg-green-800 border-2 border-white p-1.5 rounded font-bold">ចុះឈ្មោះ</p>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="social-link w-32 fixed">
+        <a href="#">
+            <div class="main-box-1 flex items-center rounded">
+                <i class="fa fa-phone w-14 h-14 text-3xl text-white flex justify-center items-center"></i>
+                <p class="pl-2 text-yellow-400 text-sm">093 33 11 88 | 012 33 11 88 | 097 333 11 88</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main-box-2 flex items-center rounded">
+                <i class="fab fa-telegram w-14 h-14 text-3xl text-white flex justify-center items-center"></i>
+                <p class="pl-5 text-xl text-yellow-400 font-bold">Telegram</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main-box-3 flex items-center rounded">
+                <i class="fab fa-line w-14 h-14 text-3xl text-white flex justify-center items-center"></i>
+                <p class="pl-5 text-xl text-yellow-400 font-bold">Line</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main-box-4 flex items-center rounded">
+                <i class="fab fa-facebook w-14 h-14 text-3xl text-white flex justify-center items-center"></i>
+                <p class="pl-5 text-xl text-yellow-400 font-bold">Facebook</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="main-box-5 flex items-center rounded">
+                <i class="fab fa-facebook-messenger w-14 h-14 text-3xl text-white flex justify-center items-center"></i>
+                <p class="pl-5 text-xl text-yellow-400 font-bold">Messenger</p>
+            </div>
+        </a>
+    </div>
+    <div class="header-mobile w-full px-2 hidden flex justify-between items-center">
+        <div class="user" onclick="openForm();">
+            <ion-icon name="person-outline" size="small" class="p-1 text-white w-7 h-7 border-2 border-green-500 rounded-md bg-green-800"></ion-icon>
+        </div>
+        <a href="./index.html">
+            <div class="logo w-32">
+                <img src="./img/logo/EBET logo.png" alt="" class="w-full">
+            </div>
+        </a>
+        <div class="open-menu" onclick="openNav();">
+            <ion-icon name="menu-outline" size="small" class="p-1 text-white w-7 h-7 border-2 border-green-500 rounded-md bg-green-800"></ion-icon>
+        </div>
+    </div>
+    <header class="w-full">
+        <div class="main-box max-w-6xl m-auto flex justify-between items-center">
+            <a href="./index.html">
+                <div class="logo w-36">
+                    <img src="./img/logo/EBET logo.png" alt="" class="w-full">
+                </div>
+            </a>
+            <div class="user-and-time inline-block max-w-3xl">
+                <div class="times py-1 float-right max-w-lg flex justify-between items-center pr-5">
+                    <div id="clockdate">
+                        <div class="clockdate-wrapper flex justify-between items-center">
+                            <ion-icon name="time-outline" size="small" class="text-white font-bold"></ion-icon>
+                            <div id="date" class="text-md text-white font-bold mx-2"></div>
+                            <div id="clock" class="text-md text-white font-bold mx-2"></div>
+                        </div>
+                    </div>
+                    <div class="language w-28 bg-green-900 p-1.5 rounded-md relative">
+                        <a href="#" class="flex justify-around items-center text-white font-bold p-1">
+                            <img class="w-8" src="./img/icon/cambodia.png" alt="">&nbsp;KH&nbsp;<ion-icon name="chevron-down-outline"></ion-icon>
+                        </a>
+                        <div class="drop-language absolute w-28 left-0 pt-1">
+                            <div class="box bg-green-900 p-1.5 rounded-md">
+                                <a href="#" class="my-1 flex justify-around items-center text-white font-bold hover:bg-green-500 rounded-md p-1">
+                                    <img class="w-8" src="./img/icon/united-kingdom.png" alt="">&nbsp;EN
+                                </a>
+                                <a href="#" class="my-1 flex justify-around items-center text-white font-bold hover:bg-green-500 rounded-md p-1">
+                                    <img class="w-8" src="./img/icon/cambodia.png" alt="">&nbsp;KH
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="user py-1 w-full float-left">
+                    <form action="#" method="post">
+                        <input type="text" placeholder="ឈ្មោះអ្នកប្រើប្រាស់" class="border-yellow-500 border-2 outline-0 p-1.5 rounded text-lg w-64">
+                        <input type="text" placeholder="លេខសម្ងាត់" class="border-yellow-500 border-2 outline-0 p-1.5 rounded text-lg w-64">
+                        <button type="submit" class="border-white border-2 outline-0 py-1.5 px-3 bg-green-500 rounded text-white text-lg font-bold w-28">ចូលលេង</button>
+                        <button type="submit" class="border-white border-2 outline-0 py-1.5 px-3 bg-yellow-500 rounded text-white text-lg font-bold w-28"><a href="./register.html">ចុះឈ្មោះ</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="w-full">
+        <div class="menu max-w-6xl m-auto" id="menu">
+            <div class="close-menu hidden px-3 py-4" onclick="closeNav();">
+                <ion-icon name="close-outline" size="small" class="p-1 text-white w-7 h-7 border-2 border-yellow-500 rounded-md bg-green-800"></ion-icon>
+            </div>
+            <ul>
+                <li class="inline-block"><a href="./index.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/10001.svg" alt="" class="w-8 h-8">ទំព័រដើម</a></li>
+                <li class="inline-block mobile-icon"><a href="./index.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/mobile.png" alt="" class="w-5 h-8"></a></li>
+                <li class="inline-block"><a href="./sport.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/10002.svg" alt="" class="w-8 h-8">កីឡា</a></li>
+                <li class="inline-block"><a href="./casino.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/10003.svg" alt="" class="w-8 h-8">កាស៊ីណូ</a></li>
+                <li class="inline-block"><a href="./lottery.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/lottery.png" alt="" class="w-8 h-8">ឆ្នោត</a></li>
+                <li class="inline-block"><a href="./kino.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/10004.svg" alt="" class="w-8 h-8">គីណូ</a></li>
+                <li class="inline-block"><a href="./cock.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/10005.svg" alt="" class="w-8 h-8">មាន់ជល់</a></li>
+                <li class="inline-block"><a href="./fish.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/fish.png" alt="" class="w-8 h-8">បាញ់ត្រី</a></li>
+                <li class="inline-block"><a href="./joker.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/10006.svg" alt="" class="w-8 h-8">ជូកឺ</a></li>
+                <li class="inline-block"><a href="./promotion.html" class="flex items-center text-md font-bold text-yellow-300 py-2 px-3"><img src="./img/icon/10007.svg" alt="" class="w-8 h-8">ការផ្តល់ជូន</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="blog-register max-w-6xl m-auto py-5">
+        <div class="title w-64 m-auto">
+            <h1 class="text-center p-2 rounded-md text-2xl font-bold text-white">ចុះឈ្មោះ</h1>
+        </div>
+        <div class="main-box grid grid-cols-12 gap-5 mt-1 rounded-md p-5">
+            <div class="col-span-5">
+                <div class="box p-2">
+                    <h1 class="text-xl text-yellow-400 font-bold">បង្កើតគណនីរបស់អ្នក</h1>
+                    <div class="form">
+                        <form action="#" method="post">
+                            <div class="row mt-4 flex justify-between items-center">
+                                <label for="#" class="text-white font-bold">ឈ្មោះអ្នកប្រើប្រាស់</label>
+                                <input type="text" placeholder="ឈ្មោះអ្នក" class="p-2 rounded border-0 outline-0 w-64">
+                            </div>
+                            <div class="row mt-4 flex justify-between items-center">
+                                <label for="#" class="text-white font-bold">ពាក្យសម្ងាត់</label>
+                                <input type="password" placeholder="ពាក្យសម្ងាត់" class="p-2 rounded border-0 outline-0 w-64">
+                            </div>
+                            <div class="row mt-4 flex justify-between items-center">
+                                <label for="#" class="text-white font-bold">បញ្ជាក់លេខសម្ងាត់</label>
+                                <input type="password" placeholder="បញ្ជាក់លេខសម្ងាត់" class="p-2 rounded border-0 outline-0 w-64">
+                            </div>
+                            <div class="row mt-4 flex justify-between items-center">
+                                <label for="#" class="text-white font-bold">លេខទូរស័ព្ទ</label>
+                                <input type="text" placeholder="+855" class="p-2 rounded border-0 outline-0 w-64">
+                            </div>
+                            <div class="row mt-4 flex justify-between items-center">
+                                <label for="#" class="text-white font-bold">អ្នកណែនាំ</label>
+                                <input type="text" placeholder="(Optional)" class="p-2 rounded border-0 outline-0 w-64">
+                            </div>
+                            <div class="row mt-4 flex justify-between items-center">
+                                <label for="#" class="text-white font-bold">លេខកូដសុវត្ថិភាព</label>
+                                <div class="box-code w-64 flex justify-between items-center">
+                                    <input type="text" placeholder="លេខកូដសុវត្ថិភាព" class="p-2 rounded border-0 outline-0 w-44">
+                                    <div class="random-code">
+                                        <p id="random" class="w-16 text-center m-auto bg-green-900 rounded-md text-white font-bold p-2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-7">
+                <div class="box">
+                    <h1 class="text-md text-yellow-400 py-2">
+                        តាមរយៈបំពេញបែបបទចុះឈ្មោះខាងលើ ខ្ញុំសូមបញ្ជាក់ថា ខ្ញុំពិតជាមានអាយុត្រឹមត្រូវតាមច្បាប់ ហើយសកម្មភាពរបស់ខ្ញុំនៅលើវេបសាយនេះនឹងមិនផ្ទុយនឹងច្បាប់នៃដែនសម្ថកិច្ចរបស់ខ្ញុំឡើយ។ ហើយខ្ញុំក៏ទទួលយកល័ក្ខន្តិកៈ​ទាំងអស់នៃច្បាប់ឯកជនភាពដែលបានចែងក្នុងវេបសាយនេះផងដែរ
+                    </h1>
+                    <div class="check-box flex items-center text-sm mt-2 text-white font-bold">
+                        <input type="checkbox" name="#" id="#" class="w-5 h-5 border-0 outline-0">&nbsp;
+                        <p>ខ្ញុំចង់ទទួលបានព័ត៌មានលម្អិតនៃការផ្តល់ជូនពិសេស</p>
+                    </div>
+                    <div class="check-box flex items-center text-sm mt-2 text-white font-bold">
+                        <input type="checkbox" name="#" id="#" class="w-5 h-5 border-0 outline-0">&nbsp;
+                        <p>ខ្ញុំមានអាយុ 18 ឆ្នាំ និងទទួលយក</p>
+                    </div>
+                    <form action="#" method="post">
+                        <button name="btn-register" class="w-32 bg-yellow-500 mt-5 p-2 text-center rounded-md text-xl text-white font-bold hover:bg-green-500">ចុះឈ្មោះ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+        footer
+    -->
+    <footer>
+        <div class="main-box max-w-6xl m-auto grid grid-cols-12 gap-5">
+            <div class="col-span-6">
+                <div class="box">
+                    <h1 class="text-center text-lg text-yellow-400 font-bold py-2 border-b-2 border-yellow-400 w-full">អ្នកផ្តល់សេវា</h1>
+                    <div class="images w-full mt-2">
+                        <img src="./img/footer/client.png" alt="" class="w-full">
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-6">
+                <div class="box">
+                    <h1 class="text-center text-lg text-yellow-400 font-bold py-2 border-b-2 border-yellow-400 w-full">ធនាគារដែលពេញចិត្ត</h1>
+                    <div class="icon grid grid-cols-12 mt-2">
+                        <div class="col-span-3">
+                            <a href="#">
+                                <div class="box">
+                                    <div class="images w-full overflow-hidden">
+                                        <img src="./img/bank/aba.png" alt="" class="w-20 m-auto rounded-md">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-span-3">
+                            <a href="#">
+                                <div class="box">
+                                    <div class="images w-full overflow-hidden">
+                                        <img src="./img/bank/aceleda.png" alt="" class="w-20 m-auto rounded-md">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-span-3">
+                            <a href="#">
+                                <div class="box">
+                                    <div class="images w-full overflow-hidden">
+                                        <img src="./img/bank/wing.png" alt="" class="w-20 m-auto rounded-md">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-span-3">
+                            <a href="#">
+                                <div class="box">
+                                    <div class="images w-full overflow-hidden">
+                                        <img src="./img/bank/trumoney.png" alt="" class="w-20 m-auto rounded-md">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </footer>
+    <!-- 
+        script link
+    -->
+    <script src="./script.js"></script>
+</body>
+</html>
